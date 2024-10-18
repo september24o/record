@@ -7,7 +7,7 @@ const audioChunks = ref<Blob[]>([]);
 const mediaRecorder = ref<MediaRecorder | null>(null);
 const audioUrl = ref('');
 const responseText = ref('');
-const INFERENCE_API = "http://inference.gpu.mdgc.xyz:18443/v1/audio/transcriptions";
+const INFERENCE_API = "http://url/v1/audio/transcriptions";
 const modelUid = 'ChatTTS';
 
 const startRecording = async () => {
